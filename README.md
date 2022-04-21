@@ -37,6 +37,7 @@ on android, use custom xml
   assets:
      - assets/images/
 ```
+#### *At least one time, you have to build on flutter project for proper processing.
 
 in sample, I guess you cannot see your dialog screen(cause it's lightweight)  
 if you want to see the change more clearly. follow these steps.
