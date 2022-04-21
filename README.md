@@ -8,11 +8,12 @@ and even you want to open dialog on it, it's not supporting.
 (flutter_native_splash uses their LaunchTheme, showing dialog on it didn't work for me)  
 but with this sample. you can do it whatever.
 
-the original sample is using old embedding v1. so I just moved code to new one with MethodChannel on Android.
+the original sample is using old embedding v1.  
+so I just moved code to new one with MethodChannel on Android.
 
 it has 2 steps showing splash screen  
-android: FlutterActivity -> Dialog for customizing -> Dart screen  
-ios: LaunchScreen with storyboard -> Dart screen  
+- android: FlutterActivity -> Dialog for customizing -> Dart screen  
+- ios: LaunchScreen with storyboard -> Dart screen  
 *Dart screen uses same pattern of splash screen using dp
 
 on ios, we can easily customize the splash screen  
@@ -39,7 +40,7 @@ on android, use custom xml
 in sample, I guess you cannot see your dialog screen(cause it's lightweight)  
 if you want to see the change more clearly. follow these steps.
 1. uncomment 40 ~ 45 line in SplashScreen of app/main/kotlin folder
-2. comment 42 line in main.dart
-*
-you can see easily these screens, all done.
+2. comment 42 line in main.dart  
+
+you can see easily these screens, all done.  
 ![녹화_2022_04_21_09_29_47_836](https://user-images.githubusercontent.com/49779139/164346200-a919d074-8116-418d-ab95-2cee441f4621.gif)
