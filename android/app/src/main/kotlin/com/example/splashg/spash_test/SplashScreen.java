@@ -37,12 +37,12 @@ public class SplashScreen {
                     }
 
                     // if you want to see this dialog slowly
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            hide(activity);
-                        }
-                    }, 7000);
+                    // new Handler().postDelayed(new Runnable() {
+                    //     @Override
+                    //     public void run() {
+                    //         hide(activity);
+                    //     }
+                    // }, 7000);
                 }
             }
         });

@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     // if your screen is ready, hide dialog on Android
-   // hideSplash();
+    hideSplash();
 
     return Scaffold(
       backgroundColor: Colors.white,
