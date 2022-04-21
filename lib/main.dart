@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Padding(
           padding: const EdgeInsets.only(left: 50, right: 50, bottom: 30),
-          child: Image.asset("assets/images/meetings_img_main_logo_main.png", width: double.infinity),
+          child: Image.asset("assets/images/couple_blog.jpg", width: double.infinity),
         ),
       ),
     );
